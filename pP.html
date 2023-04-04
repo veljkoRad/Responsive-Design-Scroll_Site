@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>projekatPrvi</title>
+    <link rel="stylesheet" href="pPstil.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar pocetak -->
+    <nav class="navbar">
+      <div class="navbarContainer">
+        <a href="#home" id="navbarLogo">Boja</a>
+        <div class="navbarToggle" id="mobileMenu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbarMenu">
+          <li class="navbarItem">
+            <a href="#home" class="navbarLinks" id="homePage">Pocetna</a>
+          </li>
+          <li class="navbarItem">
+            <a href="#about" class="navbarLinks" id="aboutPage">O nama</a>
+          </li>
+          <li class="navbarItem">
+            <a href="#services" class="navbarLinks" id="servicesPage">Usluge</a>
+          </li>
+          <li class="navbarBtn">
+            <a href="#signUp" class="button" id="signUpPage">Prijavi se</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="heroContainer">
+        <h1 class="heroHeading">Izaberi svoju <span>boju</span></h1>
+        <p class="heroDescription">Neogranicene Mogucnosti</p>
+        <button class="mainBtn"><a href="#">Pretrazi</a></button>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="mainContainer">
+        <div class="mainImgContainer">
+          <div class="mainImgCard"><i class="fas fa-layer-group"></i></div>
+        </div>
+        <div class="mainContent">
+          <h1>Sta mi radimo?</h1>
+          <h2>Mi pomazemo razvoju biznisa</h2>
+          <p>Zakazi poziv da saznas vise o nasim uslugama</p>
+          <button class="mainBtn"><a href="#">Zakazi Poziv</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <h1>Nase Usluge</h1>
+      <div class="servicesContainer">
+        <div class="servicesCard">
+          <h2>Prilagodjene Boje</h2>
+          <p>AI Tehnologija</p>
+          <div class="servicesBtn"><button>Pocni</button></div>
+        </div>
+        <div class="servicesCard">
+          <h2>Da li si spreman?</h2>
+          <p>Pogledaj Galeriju</p>
+          <div class="servicesBtn"><button>Pocni</button></div>
+        </div>
+        <div class="servicesCard">
+          <h2>Gradijenti Boja</h2>
+          <p>1000 Kombinacija</p>
+          <div class="servicesBtn"><button>Pocni</button></div>
+        </div>
+        <div class="servicesCard">
+          <h2>Neograniceni izbori</h2>
+          <p>1000 Boja</p>
+          <div class="servicesBtn"><button>Pocni</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SignUp Section -->
+    <div class="main" id="signUp">
+      <div class="mainContainer">
+        <div class="mainContent">
+          <h1>Pridruzi Se Nasem Timu</h1>
+          <h2>Prijavi Se Danas</h2>
+          <p>Proveri zasto se razlikujemo od drugih</p>
+          <button class="mainBtn"><a href="#">Prijavi se</a></button>
+        </div>
+        <div class="mainImgContainer">
+          <div class="mainImgCard" id="card-2">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footerContainer">
+      <div class="footerLinks">
+        <div class="footerLinkWrapper">
+          <div class="footerLinkItems">
+            <h2>O Nama</h2>
+            <a href="">Kako Funkcionise</a>
+            <a href="">Karijere</a>
+            <a href="">Uslovi koriscenja</a>
+          </div>
+          <div class="footerLinkItems">
+            <h2>Kontaktiraj nas</h2>
+            <a href="">Kontakt</a>
+            <a href="">Podrska</a>
+            <a href="">Destinacije</a>
+          </div>
+        </div>
+        <div class="footerLinkWrapper">
+          <div class="footerLinkItems">
+            <h2>Snimci</h2>
+            <a href="">Posalji Video</a>
+            <a href="">Ambasadori</a>
+            <a href="">Agencija</a>
+          </div>
+          <div class="footerLinkItems">
+            <h2>Drustvene Mreze</h2>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="">Youtube</a>
+            <!-- obrati paznju na razliku "#" i " " ... " / " te izbaciju u directory(proveri ako ti nije jasno-->
+            <a href="#">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="socialMedia">
+        <div class="socialMediaWrap">
+          <div class="footerLogo">
+            <a id="footerLogo">COLOR</a>
+          </div>
+          <p class="websiteRights">COLOR 2020.All rights reserved</p>
+          <div class="socialIcons">
+            <a class="socialIconLink"><i class="fab fa-facebook"></i></a>
+            <a class="socialIconLink"><i class="fab fa-instagram"></i></a>
+            <a class="socialIconLink"><i class="fab fa-youtube"></i></a>
+            <a class="socialIconLink"><i class="fab fa-linkedin"></i></a>
+            <a class="socialIconLink"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="pPJS.js"></script>
+  </body>
+</html>
